@@ -10,5 +10,12 @@
   </head>
   <body>
     <div id="root"></div>
+    <!-- Script para manejar redirecciones en GitHub Pages -->
+    <script>
+      // Guarda la ruta original antes de redirigir
+      sessionStorage.redirect = window.location.pathname;
+      // Redirige a la raíz de tu aplicación (/historico/)
+      window.location.replace("/historico/");
+    </script>
   </body>
 </html>
